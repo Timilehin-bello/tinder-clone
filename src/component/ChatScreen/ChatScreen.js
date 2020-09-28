@@ -15,10 +15,7 @@ function ChatScreen() {
       name: "Ellen",
       image:
         "https://media.wnyc.org/i/800/0/l/85/1/rsz_photo_credit_cass_bird.jpg",
-      message: "Whats up guys",
-    },
-    {
-      message: "Whats up guys",
+      message: "Whats up babe",
     },
   ]);
 
@@ -55,7 +52,11 @@ function ChatScreen() {
           type="text"
           placeholder="Type a Message"
         />
-        <button className="chatScreen__inputButton" onClick={handleSend}>
+        <button
+          className="chatScreen__inputButton"
+          onClick={handleSend}
+          disabled={!input}
+        >
           SEND
         </button>
       </form>

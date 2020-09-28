@@ -6,6 +6,13 @@
     justify-content: space-evenly;
 }
 
+@media (min-width: 800px ) {
+    .swipeButtons {
+        bottom: 1vh;
+    }
+
+}
+
 .swipeButtons .MuiIconButton-root {
     background: white;
     box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
@@ -15,10 +22,12 @@
     padding: 3vw !important;
     color: #f5b748 !important;
 }
+
 .swipeButtons__left {
     padding: 3vw !important;
     color: #ec5e6f !important;
 }
+
 .swipeButtons__star {
     padding: 3vw !important;
     color: #62b4f9 !important;
